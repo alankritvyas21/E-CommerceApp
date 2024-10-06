@@ -17,7 +17,7 @@ export class SharedService {
   categoryProducts: any[] = [];
   totalCartItems: number = 0;
   totalPrice: number = 0;
-  private notyf = new Notyf({
+  public notyf = new Notyf({
     duration: 2000,
     position: {
       x: 'right',
